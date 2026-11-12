@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+  <defs>
+    <linearGradient id="bgCert1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="50%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" rx="16" fill="url(#bgCert1)" stroke="#334155" stroke-width="2"/>
+  <!-- Decorative border -->
+  <rect x="18" y="18" width="464" height="314" rx="10" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" stroke-dasharray="6 4" opacity="0.6"/>
+  <rect x="26" y="26" width="448" height="298" rx="8" fill="#131d31"/>
+
+  <!-- Seal icon -->
+  <circle cx="250" cy="78" r="32" fill="url(#goldGrad)"/>
+  <circle cx="250" cy="78" r="26" fill="#0f172a"/>
+  <!-- Python logo silhouette / emblem -->
+  <path d="M242 70 H254 C257 70, 259 72, 259 75 V80 H248 V82 H262 C265 82, 267 84, 267 87 V91 C267 94, 265 96, 262 96 H250 C247 96, 245 94, 245 91 V86 H256 V84 H242 C239 84, 237 82, 237 79 V75 C237 72, 239 70, 242 70 Z" fill="url(#goldGrad)"/>
+
+  <!-- Texts -->
+  <text x="250" y="140" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" letter-spacing="2" text-anchor="middle">CERTIFICATE OF COMPLETION</text>
+  <text x="250" y="172" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" text-anchor="middle">Python Programming &amp; Algorithms</text>
+  <text x="250" y="200" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle">Awarded for mastery in Object-Oriented Programming &amp; Data Structures</text>
+
+  <line x1="120" y1="225" x2="380" y2="225" stroke="#334155" stroke-width="1"/>
+
+  <!-- Sign / Details -->
+  <text x="140" y="260" fill="#38bdf8" font-family="Courier, monospace" font-size="11">ISSUER: Coursera / Python Inst.</text>
+  <text x="140" y="280" fill="#64748b" font-family="Courier, monospace" font-size="10">STATUS: Verified &amp; Accredited</text>
+
+  <text x="360" y="260" fill="#38bdf8" font-family="Courier, monospace" font-size="11" text-anchor="end">DATE: 2024</text>
+  <text x="360" y="280" fill="#64748b" font-family="Courier, monospace" font-size="10" text-anchor="end">ID: PYT-9824-CS</text>
+</svg>

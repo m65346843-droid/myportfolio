@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360">
+  <defs>
+    <linearGradient id="bgP4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c192c"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" fill="url(#bgP4)"/>
+
+  <!-- Database Console Window -->
+  <rect x="40" y="30" width="520" height="300" rx="12" fill="#09131f" stroke="#38bdf8" stroke-width="1.5" stroke-opacity="0.6"/>
+  
+  <!-- Header -->
+  <rect x="40" y="30" width="520" height="36" rx="12" fill="#060c14"/>
+  <circle cx="64" cy="48" r="5" fill="#ef4444"/>
+  <circle cx="82" cy="48" r="5" fill="#f59e0b"/>
+  <circle cx="100" cy="48" r="5" fill="#10b981"/>
+  <text x="125" y="52" fill="#38bdf8" font-family="Courier, monospace" font-size="11" font-weight="bold">MySQL Studio — Query: SELECT * FROM student_records JOIN courses</text>
+
+  <!-- Tag badge -->
+  <rect x="435" y="40" width="110" height="18" rx="9" fill="#0284c7"/>
+  <text x="490" y="53" fill="#ffffff" font-family="system-ui, sans-serif" font-weight="bold" font-size="9" text-anchor="middle">DATABASE</text>
+
+  <!-- Query Box -->
+  <rect x="60" y="80" width="480" height="45" rx="6" fill="#0f172a" stroke="#1e293b"/>
+  <text x="75" y="98" fill="#f59e0b" font-family="Courier, monospace" font-size="10">SELECT s.id, s.name, c.course_name, s.grade, s.status</text>
+  <text x="75" y="114" fill="#38bdf8" font-family="Courier, monospace" font-size="10">FROM students s INNER JOIN enrollments e ON s.id = e.student_id;</text>
+
+  <!-- Results Table -->
+  <rect x="60" y="140" width="480" height="170" rx="6" fill="#080e18" stroke="#1e293b"/>
+  <!-- Table Header -->
+  <rect x="60" y="140" width="480" height="26" fill="#1e293b"/>
+  <text x="75" y="157" fill="#94a3b8" font-family="Courier, monospace" font-weight="bold" font-size="10">ID     STUDENT NAME        COURSE TITLE         GRADE   STATUS</text>
+  
+  <!-- Rows -->
+  <text x="75" y="184" fill="#e2e8f0" font-family="Courier, monospace" font-size="10">101    Alex Vance          Data Structures      A+      [Enrolled]</text>
+  <line x1="60" y1="192" x2="540" y2="192" stroke="#1e293b"/>
+
+  <text x="75" y="210" fill="#e2e8f0" font-family="Courier, monospace" font-size="10">102    Maya Lin            Computer Networks    A       [Enrolled]</text>
+  <line x1="60" y1="218" x2="540" y2="218" stroke="#1e293b"/>
+
+  <text x="75" y="236" fill="#e2e8f0" font-family="Courier, monospace" font-size="10">103    Devon James         Operating Systems    B+      [Completed]</text>
+  <line x1="60" y1="244" x2="540" y2="244" stroke="#1e293b"/>
+
+  <text x="75" y="262" fill="#e2e8f0" font-family="Courier, monospace" font-size="10">104    Elena Rostova       Database Management  A+      [Completed]</text>
+  <line x1="60" y1="270" x2="540" y2="270" stroke="#1e293b"/>
+
+  <!-- Footer status -->
+  <text x="75" y="295" fill="#10b981" font-family="Courier, monospace" font-size="10">✔ 4 rows in set (0.002 sec) | Query Plan: Index Range Scan | InnoDB</text>
+</svg>

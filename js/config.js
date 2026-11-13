@@ -38,7 +38,7 @@ const PORTFOLIO_CONFIG = {
 
     // Profile photo & Resume
     avatar: "assets/images/my-photo.jpg.jpeg", // Replace with your image, e.g. "assets/images/profile.jpg"
-    resumeUrl: "assets/resume", // Path to your resume PDF
+    resumeUrl: "assets/resume/MARUPILLI YERNI CHANDRA MOULI Resume.pdf", // Path to your resume PDF
     
     // Status & Location
     location: "Visakhapatnam, Andhra Pradesh, India",

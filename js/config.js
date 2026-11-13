@@ -21,7 +21,7 @@ const PORTFOLIO_CONFIG = {
   // 1. PERSONAL & HERO SECTION DETAILS
   // ----------------------------------------------------------------------------
   personal: {
-    fullName: "[marupilli yerni chandra mouli]", // e.g. "Alex Morgan" or your full name
+    fullName: "Marupilli yerni chandra mouli", // e.g. "Alex Morgan" or your full name
     headlinePrefix: "Hello, I'm",
     headlineSubtitle: "Engineering Student | Aspiring Software Developer",
     heroDescription:
